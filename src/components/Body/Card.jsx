@@ -1,6 +1,6 @@
 import './Section2.css'
 
-const card = () => {
+const card = ({para}) => {
   return (
     <div className="card">
     <div className="para">
@@ -11,8 +11,8 @@ const card = () => {
         <div className="name-designation">
             <p className='name'>Gladis Lennon</p>
             <p className='designation'>Head of SEO</p>
-        </div>
-    </div>
+        </div> 
+     </div>
 </div>
   )
 }

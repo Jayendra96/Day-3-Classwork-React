@@ -18,8 +18,9 @@ const Section2 = () => {
 
   return (
     <div className='main'>
-        {arr.map((ele , index) => <Card para = {ele.para} key = {index}/>
-             )}
+        {arr.map((ele , index) => {
+          return <Card para = {ele.para} key = {index}/>
+})}
     </div>
   )
 }
